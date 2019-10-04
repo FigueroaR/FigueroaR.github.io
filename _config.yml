@@ -1,11 +1,11 @@
 # Site settings
-author: Raul Figueroa
-title: 
+author: Raul A Figueroa
+title: Crypto CLI
 header-img: img/home-bg.png
 email: raul.a.figueroa@hotmail.com
-copyright_name: Raul Figueroa
+copyright_name: Raul A Figueroa
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Cryptocurrency based CLI Gem
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  FigueroaR
