@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Crypto CLI gem"
-date:       2019-10-04 17:16:54 +0000
+date:       2019-10-04 13:16:55 -0400
 permalink:  crypto_cli_gem
 ---
 
@@ -58,12 +58,36 @@ Yes two websites, but we did it.
 
 
 
-**The artist**
+**The Artist**
 
    There is an art to designing any program, CLI Gem or any structure, although logic is king, art is the instrument that helps logic proceed. I recommend sketching or pseudo code before actively implementing your code. Let your creativity flow, use visualization to see your progress and future progress.
 	 
+1. What is the objective?
+2. what requirements do you need to accomplish your mission?
+3. Areyour tools ready to go? start coding
+4. start simple, start small, "skate -> skooter -> vehicle"
+
+
+**Ready?**
+
+   Your ideas are busrting, so just start typing, or sketching, but know where you are headed, end goal. 
 	 
-	 Hope this helps
+
+
+**Installation**
+
+Add this line to your application's Gemfile:
+
+> gem 'crypto_price'
+
+And then execute:
+
+> $ bundle
+
+Or install it yourself as:
+
+> $ gem install crypto_price
+
  
 
 
