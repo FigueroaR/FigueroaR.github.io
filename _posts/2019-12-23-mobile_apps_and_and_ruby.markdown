@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "**Mobile Apps && Ruby  **"
-date:       2019-12-23 06:21:47 +0000
+date:       2019-12-23 01:21:48 -0500
 permalink:  mobile_apps_and_and_ruby
 ---
 
