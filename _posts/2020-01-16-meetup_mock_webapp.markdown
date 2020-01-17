@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Meetup Mock WebApp"
-date:       2020-01-17 03:05:07 +0000
+date:       2020-01-16 22:05:07 -0500
 permalink:  meetup_mock_webapp
 ---
 
@@ -42,11 +42,7 @@ In this app we have a few models:
 - Comments 
 
 It is very helpful to draw the lines of how each relation interacts with one another. It is part of the creative process. 
-
-(Insert picture) 
-
-
-Here we see how each model is interconnected, in technical terms - Associations 
+[here](https://github.com/FigueroaR/meetup_mock_web_app/tree/master/app/models) we see how each model is interconnected, in technical terms - Associations 
 
 - [User](https://github.com/FigueroaR/meetup_mock_web_app/blob/master/app/models/user.rb) associations:
 
