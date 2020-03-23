@@ -1,11 +1,11 @@
 # Site settings
 author: Raul A Figueroa
-title: Blog
+title: Welcome to my blog
 header-img: img/home-bg.png
 email: raul.a.figueroa@hotmail.com
 copyright_name: Raul A Figueroa
 description: > # this means to ignore newlines until "baseurl:"
-  Blogged on topics I have to stumble upon.
+  Based on technical topics I have to stumble upon and/or find interesting
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  FigueroaR
