@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Setting up a rails API"
-date:       2020-04-20 02:59:03 +0000
+date:       2020-04-19 22:59:04 -0400
 permalink:  setting_up_a_rails_api
 ---
 
@@ -19,11 +19,11 @@ First line of code we need to write is
 
 ```rails new tweeter –api```
 
-we of course called out api tweeter but you can give it any name you like 
+we of course called our api "tweeter" but you can give it any name you like 
 
 ```rails new any-name –api```.
 
-And that is it, our API is up and running. We do not however have a database set up. 
+And that is it, our API is up and running. However, we do not  have a database set up. 
 For that we need to create a table and rows of information. It is simple, lets look. 
 So our user here will have a username, email, phone number and a password (we will call it password_digest). 
 
@@ -31,7 +31,7 @@ So our user here will have a username, email, phone number and a password (we wi
 
 ```rails g scaffold Tweet content user_id:integer```
 
-On our column, some will be representer as strings, no need to declare it a string, but phone number which are integers must be declared as integers. Booleans & integers must be declared with their corresponding column. 
+On our column,  no need to declare it a string, all info is taken as strings, but phone number which are integers must be declared as integers. Booleans & integers must be declared with their corresponding column. 
 
 Next we run ```rails db:migrate``` and we have our first table, model, controller, but for now we wont worry about our views, we will take a look at associations our next talk. 
 
