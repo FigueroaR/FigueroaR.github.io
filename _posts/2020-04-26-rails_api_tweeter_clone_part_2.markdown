@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails Api | Tweeter clone | part 2"
-date:       2020-04-27 02:19:46 +0000
+date:       2020-04-26 22:19:47 -0400
 permalink:  rails_api_tweeter_clone_part_2
 ---
 
@@ -116,11 +116,13 @@ end
 class Tweet < ApplicationRecord
 
   belongs_to :user
+	
+	has_secure_password
 
 end
 ```
 
-What happened here? Well we are bringing in extra methods that can be called upon when we need to derive associated information. I do need some extra users in the database however, so I'll dig into the console and add them manually.
+What happened here? Well we are bringing in extra methods that can be called upon when we need to derive associated information. Our ''has_secure_password" helps to mantain our password hidden when displaying information, it needs 'gem bcrypt' to function. I do need some extra users in the database however, so I'll dig into the console and add them manually.
 
 
 ```rails c```
